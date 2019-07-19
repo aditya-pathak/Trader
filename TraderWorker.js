@@ -71,12 +71,12 @@ function createTraders()
     //for(var i = 0; i < numberOfTraders; i++)
     //    traders[i] = new Trader(i, "martingale");
 
-        //traders[0] = new Trader(0, "martingale");        
-        //traders[1] = new Trader(1, "martingale-short");     
-        //traders[2] = new Trader(2, "antimartingale");        
-        //traders[3] = new Trader(3, "antimartingale-short");     
-        traders[0] = new Trader(4, "splitmartingale");
-        //traders[5] = new Trader(5, "splitmartingale-modified");
+        traders[0] = new Trader(0, "martingale");        
+        traders[1] = new Trader(1, "martingale-short");     
+        traders[2] = new Trader(2, "antimartingale");        
+        traders[3] = new Trader(3, "antimartingale-short");     
+        traders[4] = new Trader(4, "splitmartingale");
+        traders[5] = new Trader(5, "splitmartingale-modified");
 }
 
 function nextCycle()
